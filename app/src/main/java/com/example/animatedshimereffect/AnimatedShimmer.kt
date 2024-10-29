@@ -68,8 +68,6 @@ fun AnimatedShimmer( modifier: Modifier = Modifier){
         end = Offset(x = translateAnim.value, y = translateAnim.value)
 
     )
-    Spacer(Modifier.height(16.dp))
-
         ShimmerGridItem(brush)
 }
 
